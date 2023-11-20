@@ -1,0 +1,4 @@
+coverage
+Django
+django-widget-tweaks
+Faker

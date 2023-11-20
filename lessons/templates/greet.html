@@ -1,0 +1,23 @@
+{% extends 'base_navbar.html' %}
+{% block content %}
+<div class="container">
+  <div class="row vh-100">
+    <div class = "col-12 my-auto">
+      <div class="card">
+        <h1><b> Welcome to the School Music Management System</b></h1>
+        <h2> Log In or Sign Up if you are new :)</h2>
+        <p>
+          <a href='{% url 'sign_up' %}' class = "btn btn-lg btn-secondary">
+            Sign Up
+          </a>
+        </p>
+        <p>
+          <a href='{% url 'log_in' %}' class = "btn btn-lg btn-secondary">
+            Log In
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

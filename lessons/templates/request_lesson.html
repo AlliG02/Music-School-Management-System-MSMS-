@@ -1,0 +1,17 @@
+{% extends 'base_navbar.html' %}
+{% block content %}
+<div class = "container">
+  <class="row">
+  <div class = "col-12">
+    <br>
+    <br>
+    <h1>Request Lesson/s</h1>
+      <form action="{% url 'requestLesson'%}" method = "post">
+        {% csrf_token %}
+        {% include 'partials/bootstrap_form.html' with form=form %}
+        <input type="submit" value = "Request Lesson" class="btn btn-primary" >
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
