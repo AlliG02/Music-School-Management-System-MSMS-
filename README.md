@@ -1,5 +1,7 @@
 ## Project structure
-The project is called `msms` (Music School Management System).  It currently consists of a single app `lessons` where all functionality resides.
+The project is called `msms` (Music School Management System), which allows students to book music lessons based on their preferences.
+
+It currently consists of a single app `lessons` where all functionality resides.
 
 ## Deployed version of the application
 The deployed version of the application can be found at *<[http://localhost:8000/](URL)>*.
