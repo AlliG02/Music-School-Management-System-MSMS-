@@ -1,4 +1,4 @@
-## Project structure
+## Project
 The project is called `msms` (Music School Management System), which allows students to book music lessons based on their preferences.
 
 It currently consists of a single app `lessons` where all functionality resides.
